@@ -1,0 +1,44 @@
+{
+  "name": "@thiagomr/math-ops",
+  "version": "0.4.2",
+  "description": "A package to make basic math operations",
+  "main": "lib/index.js",
+  "types": "lib/index.d.ts",
+  "scripts": {
+    "clean": "rimraf lib",
+    "build": "npm run clean && tsc",
+    "test": "jest",
+    "prepublish": "npm run test && npm run build"
+  },
+  "author": "Thiago Moraes",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/thiagomr/math-ops.git"
+  },
+  "bugs": {
+    "url": "https://github.com/thiagomr/math-ops/issues"
+  },
+  "homepage": "https://github.com/thiagomr/math-ops#readme",
+  "dependencies": {
+    "jest": "^27.0.4",
+    "tsc": "^2.0.3",
+    "typescript": "^4.3.2"
+  },
+  "devDependencies": {
+    "@types/jest": "^26.0.23",
+    "ts-jest": "^27.0.3",
+    "ts-node": "^10.0.0"
+  },
+  "jest": {
+    "preset": "ts-jest",
+    "testEnvironment": "node",
+    "coveragePathIgnorePatterns": [
+      "/node_modules/",
+      "lib"
+    ]
+  },
+  "files": [
+    "lib/**/*"
+  ]
+}
