@@ -1,6 +1,6 @@
 {
   "name": "@thiagomr/math-ops",
-  "version": "0.6.0",
+  "version": "0.7.0",
   "description": "A package to make basic math operations",
   "main": "lib/index.js",
   "types": "lib/index.d.ts",
