@@ -1,6 +1,6 @@
 # math-ops
 
-This package is an example about how publishing a TS package with Github Actions for an article.
+This package is an example about how publishing a TS package with Github Actions for an article that I wrote.
 
 ## Install
 
